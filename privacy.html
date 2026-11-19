@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · ClipForge</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+  <a class="brand" href="./">ClipForge</a>
+  <nav><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+</header>
+
+<h1>Privacy Policy</h1>
+<p class="muted">Effective 19 November 2026</p>
+<p>ClipForge is a personal desktop tool that makes short clips from long gaming videos and uploads them to the user's own YouTube channel. It is developed and operated by the owner of the GitHub account <a href="https://github.com/abdullahn-n">abdullahn-n</a>. This policy explains what data ClipForge accesses, where it is kept and how to remove it.</p>
+
+<h2>YouTube API Services</h2>
+<p>ClipForge uses YouTube API Services to upload videos. By using ClipForge you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of your data is described in the <a href="https://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
+
+<h2>What ClipForge accesses</h2>
+<p>ClipForge only accesses your YouTube account after you sign in with Google and grant permission. With that permission it:</p>
+<ul>
+  <li>uploads videos to your channel and sets their title, description, tags, visibility and scheduled publish time;</li>
+  <li>reads your channel's name and ID, and the status and public statistics (such as view count) of videos on your channel.</li>
+</ul>
+<p>ClipForge does not access your comments, messages, subscriptions, watch history, contacts or any other Google data.</p>
+
+<h2>What is stored, and where</h2>
+<p>ClipForge runs entirely on your own computer. It has no server and no user accounts. It stores, on your computer only:</p>
+<ul>
+  <li>the sign-in token Google issues when you grant access (in the file <code>youtube_token.json</code>);</li>
+  <li>a local database of your clips, including the YouTube video ID and publish time of each clip it uploaded.</li>
+</ul>
+<p>None of this is sent to the developer or shared with any third party. ClipForge does not sell data, show ads or use analytics.</p>
+
+<h2>How long data is kept</h2>
+<p>Data stays on your computer until you delete it. Channel names, video statuses and statistics are fetched from YouTube when needed and are not kept for more than 30 days without being refreshed.</p>
+
+<h2>Removing ClipForge's access and deleting your data</h2>
+<ul>
+  <li>To revoke ClipForge's access to your Google Account, remove it on Google's <a href="https://security.google.com/settings/security/permissions">security settings page</a>.</li>
+  <li>To delete the stored data, delete <code>youtube_token.json</code> and <code>clipforge.db</code> from the ClipForge folder on your computer.</li>
+  <li>You can also ask for help with either step using the contact link below.</li>
+</ul>
+
+<h2>This website</h2>
+<p>This website sets no cookies and uses no tracking. It is hosted by GitHub Pages, and GitHub may log visits as described in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+
+<h2>Children</h2>
+<p>ClipForge is not directed to children under 13 and does not knowingly collect data from them.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy or your data: <a href="https://github.com/abdullahn-n/clipforge-site/issues">open an issue on GitHub</a>.</p>
+
+<footer class="muted">
+  <p><a href="./">Home</a> · <a href="terms.html">Terms of Service</a></p>
+  <p>ClipForge is not affiliated with, sponsored by or endorsed by YouTube or Google. YouTube is a trademark of Google LLC.</p>
+</footer>
+</main>
+</body>
+</html>
